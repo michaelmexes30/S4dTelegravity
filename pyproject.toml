@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "s4dtelegravity"
+version = "0.1.0"
+description = "S4dTelegravity Python project"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "michaelmexes30" }
+]
+
+[tool.setuptools]
+packages = ["s4dtelegravity"]
+
+[project.scripts]
+s4dtelegravity = "s4dtelegravity.app:main"
