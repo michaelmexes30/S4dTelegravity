@@ -1,10 +1,22 @@
-.venv/
+# Python caches
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
+*.py[cod]
+*$py.class
+
+# Environments and secrets
+.venv/
+venv/
+ENV/
+env/
+.env
+*.env
+
+# Logs and runtime data
+*.log
+data/*.log
+data/*.xlsx
+data/user_memory.json
+
+# Operating System
 .DS_Store
+Thumbs.db
